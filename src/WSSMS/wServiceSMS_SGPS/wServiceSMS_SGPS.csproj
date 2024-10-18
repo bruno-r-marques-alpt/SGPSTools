@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <!--Project was exported from assembly: C:\projectos\WSSMS\WSSMS\bin\wServiceSMS_SGPS.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{586F3E1E-59E1-45FD-8D55-821FDAD1353A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>wServiceSMS_SGPS</AssemblyName>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.2466.24030</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Diagnostics.Tracing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="wServiceSMS_SGPS\Global.cs" />
+    <Compile Include="wServiceSMS_SGPS\Service1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="wServiceSMS_SGPS\Components\CASPEmail.cs" />
+    <Compile Include="ptsgps_spsdev01\Search.cs" />
+    <Compile Include="ptsgps_spsdev01\IdentityCredentials.cs" />
+    <Compile Include="ptsgps_spsdev01\Item.cs" />
+    <Compile Include="ptsgps_spsdev01\SearchResponse.cs" />
+    <Compile Include="ptsgps_spsdev01\Property.cs" />
+    <Compile Include="ptsgps_spsdev01\GetPropertiesResponse.cs" />
+    <Compile Include="ptsgps_spsdev011\UserMng.cs" />
+    <Compile Include="ptsgps_spsdev011\UserCredentials.cs" />
+    <Compile Include="ptsgps_spsdev011\delResponse.cs" />
+    <Compile Include="ptsgps_spsdev011\ResultCode.cs" />
+    <Compile Include="ptsgps_spsdev011\addResponse.cs" />
+    <Compile Include="ptsgps_spsdev011\errorResponse.cs" />
+    <Compile Include="ptsgps_spsdev011\SearchResultDone.cs" />
+    <Compile Include="ptsgps_spsdev011\searchResultEntry.cs" />
+    <Compile Include="ptsgps_spsdev011\attr.cs" />
+    <Compile Include="ptsgps_spsdev011\searchResponse.cs" />
+    <Compile Include="ptsgps_spsdev011\modifyResponse.cs" />
+    <Compile Include="ptsgps_spsdev011\attribute.cs" />
+    <Compile Include="ptsgps_spsdev011\searchRequest.cs" />
+    <Compile Include="ptsgps_spsdev011\delRequest.cs" />
+    <Compile Include="ptsgps_spsdev011\addRequest.cs" />
+    <Compile Include="ptsgps_spsdev011\Modification.cs" />
+    <Compile Include="ptsgps_spsdev011\modifyRequest.cs" />
+    <Compile Include="ptsgps_spsdev011\IdentityCredentials.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="wServiceSMS_SGPS\Global.resx" />
+    <EmbeddedResource Include="wServiceSMS_SGPS\Service1.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

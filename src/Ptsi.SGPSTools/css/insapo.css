@@ -1,0 +1,154 @@
+.text {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #1062aa; LINE-HEIGHT: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.textsynopsis {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #1062aa; LINE-HEIGHT: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.tittext {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #d18c00; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.titlaranja {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #e86a19; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.tittabs {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.botok {
+	BORDER-RIGHT: #21699c 1px solid; BACKGROUND-POSITION: left center; BORDER-TOP: #21699c 1px solid; PADDING-LEFT: 17px; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: right; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_ok.gif); MARGIN-LEFT: 3px; BORDER-LEFT: #21699c 1px solid; WIDTH: 42px; COLOR: #21699c; BORDER-BOTTOM: #21699c 1px solid; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #aec3d6; TEXT-DECORATION: none
+}
+.botok2 {
+	BORDER-RIGHT: #21699c 1px solid; BACKGROUND-POSITION: left center; BORDER-TOP: #21699c 1px solid; PADDING-LEFT: 17px; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: right; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_mais.gif); MARGIN-LEFT: 3px; BORDER-LEFT: #21699c 1px solid; WIDTH: 42px; COLOR: #ffffff; BORDER-BOTTOM: #21699c 1px solid; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #e86a19; TEXT-DECORATION: none
+}
+.tabcanais {
+	BORDER-RIGHT: #009fe2 1px solid; BORDER-TOP: #009fe2 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #009fe2 1px solid; COLOR: #1062aa; BORDER-BOTTOM: #009fe2 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #eff7ff; TEXT-DECORATION: none
+}
+.titcanais {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_canais.gif); WIDTH: 190px; COLOR: #ffffff; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 17px; BACKGROUND-COLOR: #98b7ce; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.botpesquisar {
+	BORDER-RIGHT: #21699c 1px solid; BACKGROUND-POSITION: left center; BORDER-TOP: #21699c 1px solid; PADDING-LEFT: 17px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_ok.gif); BORDER-LEFT: #21699c 1px solid; WIDTH: 80px; COLOR: #21699c; BORDER-BOTTOM: #21699c 1px solid; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #d7e3ee; TEXT-DECORATION: none
+}
+.botpesquisar2 {
+	BORDER-RIGHT: #21699c 1px solid; BACKGROUND-POSITION: left center; BORDER-TOP: #21699c 1px solid; PADDING-LEFT: 17px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_mais.gif); BORDER-LEFT: #21699c 1px solid; WIDTH: 80px; COLOR: #ffffff; BORDER-BOTTOM: #21699c 1px solid; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #e86a19; TEXT-DECORATION: none
+}
+.titmais {
+	BACKGROUND-POSITION: left center; PADDING-LEFT: 17px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_mais.gif); WIDTH: 50px; COLOR: #ffffff; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 17px; BACKGROUND-COLOR: #21699c; TEXT-DECORATION: none
+}
+.titmais:hover {
+	BACKGROUND-POSITION: left center; PADDING-LEFT: 17px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_mais.gif); WIDTH: 50px; COLOR: #ffffff; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 17px; BACKGROUND-COLOR: #e86a19; TEXT-DECORATION: none
+}
+.linkstext {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #1062aa; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.linkstext:hover {
+	TEXT-DECORATION: underline
+}
+.data {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #1062aa; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.tabhr {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #009fe2 1px solid; BORDER-LEFT: #ffffff 0px solid; BORDER-BOTTOM: #ffffff 0px solid
+}
+.tabhr2 {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; BORDER-LEFT: #ffffff 0px solid; BORDER-BOTTOM: #009fe2 1px solid
+}
+.tabhr3 {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #009fe2 1px solid; BORDER-LEFT: #ffffff 0px solid; BORDER-BOTTOM: #009fe2 1px solid
+}
+.tabfoto {
+	BORDER-RIGHT: #009fe2 1px solid; BORDER-TOP: #009fe2 1px solid; BORDER-LEFT: #009fe2 1px solid; BORDER-BOTTOM: #009fe2 1px solid
+}
+.titcanais140px {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_canais.gif); WIDTH: 140px; COLOR: #ffffff; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 17px; BACKGROUND-COLOR: #98b7ce; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.titcanais320px {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_canais.gif); COLOR: #ffffff; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 17px; BACKGROUND-COLOR: #98b7ce; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.botpesquisar132px {
+	BORDER-RIGHT: #21699c 1px solid; BACKGROUND-POSITION: left center; BORDER-TOP: #21699c 1px solid; PADDING-LEFT: 17px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_ok.gif); BORDER-LEFT: #21699c 1px solid; WIDTH: 132px; COLOR: #21699c; BORDER-BOTTOM: #21699c 1px solid; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #d7e3ee; TEXT-DECORATION: none
+}
+.botpesquisar132px2 {
+	BORDER-RIGHT: #21699c 1px solid; BACKGROUND-POSITION: left center; BORDER-TOP: #21699c 1px solid; PADDING-LEFT: 17px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_mais.gif); BORDER-LEFT: #21699c 1px solid; WIDTH: 132px; COLOR: #ffffff; BORDER-BOTTOM: #21699c 1px solid; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #e86a19; TEXT-DECORATION: none
+}
+.botvotar {
+	BORDER-RIGHT: #21699c 1px solid; BACKGROUND-POSITION: left center; BORDER-TOP: #21699c 1px solid; PADDING-LEFT: 17px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_ok.gif); BORDER-LEFT: #21699c 1px solid; WIDTH: 54px; COLOR: #21699c; BORDER-BOTTOM: #21699c 1px solid; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #d7e3ee; TEXT-DECORATION: none
+}
+.botvotar2 {
+	BORDER-RIGHT: #21699c 1px solid; BACKGROUND-POSITION: left center; BORDER-TOP: #21699c 1px solid; PADDING-LEFT: 17px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND-IMAGE: url(/PTIntranetNF/Images/seta_mais.gif); BORDER-LEFT: #21699c 1px solid; WIDTH: 54px; COLOR: #ffffff; BORDER-BOTTOM: #21699c 1px solid; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #e86a19; TEXT-DECORATION: none
+}
+.navhomepage:hover {
+	BORDER-RIGHT: #e86a19 1px solid; BORDER-TOP: #e86a19 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #e86a19 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #e86a19 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #e86a19; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.navsugestoes {
+	BORDER-RIGHT: #21699c 1px solid; BORDER-TOP: #21699c 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #21699c 1px solid; WIDTH: 65px; COLOR: #21699c; BORDER-BOTTOM: #21699c 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #d7e3ee; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.navhomepage {
+	BORDER-RIGHT: #21699c 1px solid; BORDER-TOP: #21699c 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #21699c 1px solid; COLOR: #21699c; BORDER-BOTTOM: #21699c 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #d7e3ee; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.tdbot 
+{ HEIGHT: 15px; }
+
+.linkmais 
+{
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #21699c; TEXT-DECORATION: none
+}
+.linkmais:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #e86a19; TEXT-DECORATION: none
+}
+
+.navinternet {
+	BORDER-RIGHT: #21699c 1px solid; BORDER-TOP: #21699c 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #21699c 1px solid; WIDTH: 57px; COLOR: #21699c; BORDER-BOTTOM: #21699c 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #d7e3ee; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.navinternet2 {
+	BORDER-RIGHT: #e86a19 1px solid; BORDER-TOP: #e86a19 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #e86a19 1px solid; WIDTH: 57px; COLOR: #ffffff; BORDER-BOTTOM: #e86a19 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #e86a19; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.nav118online {
+	BORDER-RIGHT: #21699c 1px solid; BORDER-TOP: #21699c 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #21699c 1px solid; WIDTH: 72px; COLOR: #21699c; BORDER-BOTTOM: #21699c 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #d7e3ee; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.nav118online2 {
+	BORDER-RIGHT: #e86a19 1px solid; BORDER-TOP: #e86a19 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #e86a19 1px solid; WIDTH: 72px; COLOR: #ffffff; BORDER-BOTTOM: #e86a19 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #e86a19; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.navbolsa2 {
+	BORDER-RIGHT: #e86a19 1px solid; BORDER-TOP: #e86a19 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #e86a19 1px solid; WIDTH: 41px; COLOR: #ffffff; BORDER-BOTTOM: #e86a19 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #e86a19; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.navbolsa {
+	BORDER-RIGHT: #21699c 1px solid; BORDER-TOP: #21699c 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #21699c 1px solid; WIDTH: 41px; COLOR: #21699c; BORDER-BOTTOM: #21699c 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #d7e3ee; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.navglossario {
+	BORDER-RIGHT: #21699c 1px solid; BORDER-TOP: #21699c 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #21699c 1px solid; WIDTH: 63px; COLOR: #21699c; BORDER-BOTTOM: #21699c 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #d7e3ee; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.navglossario2 {
+	BORDER-RIGHT: #e86a19 1px solid; BORDER-TOP: #e86a19 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #e86a19 1px solid; WIDTH: 63px; COLOR: #ffffff; BORDER-BOTTOM: #e86a19 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #e86a19; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.navmapadosite2 {
+	BORDER-RIGHT: #e86a19 1px solid; BORDER-TOP: #e86a19 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #e86a19 1px solid; WIDTH: 85px; COLOR: #ffffff; BORDER-BOTTOM: #e86a19 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #e86a19; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.navmapadosite {
+	BORDER-RIGHT: #21699c 1px solid; BORDER-TOP: #21699c 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #21699c 1px solid; WIDTH: 85px; COLOR: #21699c; BORDER-BOTTOM: #21699c 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #d7e3ee; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.navsugestoes2 {
+	BORDER-RIGHT: #e86a19 1px solid; BORDER-TOP: #e86a19 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; FLOAT: left; MARGIN-LEFT: 6px; BORDER-LEFT: #e86a19 1px solid; WIDTH: 65px; COLOR: #ffffff; BORDER-BOTTOM: #e86a19 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #e86a19; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.tittext:hover {
+	TEXT-DECORATION: underline
+}
+.tabconteudo 
+{
+		font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #1062AA; text-decoration: none; background-color: #F4F8FA; border-color: #98B7CE black #FFFFFF; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 3px; border-left-width: 0px}
+.tabconteudotit 
+{
+		font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #FFFFFF; text-decoration: none; background-color: #98B7CE; border-color: #98B7CE black #FFFFFF; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 3px; border-left-width: 0px } 
+.listamapasite {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #1062AA; text-decoration: none; list-style-position: outside; list-style-type: circle}
+
+.listamapasite:hover {  text-decoration: underline}
+
+.tdmapasite {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #1062AA; text-decoration: none; background-color: #D7E3EE; height: 17px}
+.botforms {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #21699C; text-decoration: none; background-color: #D7E3EE; border: #21699C; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.textfield {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #1062AA; text-decoration: none; background-color: #FFFFFF; border: #1062AA; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.hr {  border-color: #98B7CE black black; border-style: solid; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.tabdestaque {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #1062AA; text-decoration: none; background-color: #F4F8FA; border: 1px #98B7CE solid}
+.tabdestaque2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #1062AA; text-decoration: none; background-color: #F4F8FA; border: 1px #98B7CE solid }
+titartigos {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #ff8COO; text-decoration: none}
+.links { font-family: Verdana; color: #003664; font-size: 11px; text-decoration: underline; line-height: 25px;}
+.links:hover {  color: #D18C00}
+.formtxt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: normal; font-weight: normal; color: #1062AA; text-decoration: none ; background-color: #FFFFFF}

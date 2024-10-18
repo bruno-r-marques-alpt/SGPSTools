@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33417.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wServiceSMS_SGPS", "wServiceSMS_SGPS.csproj", "{586F3E1E-59E1-45FD-8D55-821FDAD1353A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{586F3E1E-59E1-45FD-8D55-821FDAD1353A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586F3E1E-59E1-45FD-8D55-821FDAD1353A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586F3E1E-59E1-45FD-8D55-821FDAD1353A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586F3E1E-59E1-45FD-8D55-821FDAD1353A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D8D06FF-35BD-4A5E-98FD-FCF7B2CF0733}
+	EndGlobalSection
+EndGlobal

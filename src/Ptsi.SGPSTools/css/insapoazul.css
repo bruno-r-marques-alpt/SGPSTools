@@ -1,0 +1,39 @@
+.tabtop {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: normal; font-weight: normal; color: #000000; text-decoration: none; background-color: #C2CDE0; border-color: #A9D298 #504F54 #504F54; border-style: solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.tabtop2 {  background-color: #FFFFFF; border-color: black #504F54 #504F54; border-style: solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.data {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #000000; text-decoration: none; font-style: normal}
+.linksverde {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #032B5E; text-decoration: none}
+.form {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: none; font-weight: normal; font-style: normal}
+.tablecanais {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; line-height: normal; font-weight: normal; color: #000000; text-decoration: none; background-color: #F2F5F9; border: 1px #032B5E solid; padding-left: 4px; padding-top: 1px; padding-bottom: 1px}
+.tdcanais {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none; background-color: #032B5E; padding-left: 4px; padding-top: 1px; padding-bottom: 1px}
+.texto {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: normal; color: #000000; text-decoration: none}
+.opiniao {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #C83500; text-decoration: none; padding-bottom: 2px; border-color: black black #FFB22B; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.tabpesquisa {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #FFFFFF; text-decoration: none; background-color: #279500; border: 1px #245106 solid; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px}
+.textfield {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; text-decoration: none; background-color: #FFFFFF; border-color: #000000 #1A4774 #1A4774 #000000; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.button {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #000000; text-decoration: none; background-color: #FFC000; border-color: #FFFFFF #000000 #000000 #FFFFFF; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.destaques { padding-bottom: 2px; border-color: black black #4FA028; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.tabdestaque {  text-decoration: none; background-color: #F3F5F4; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px}
+.linkred { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #C83500; text-decoration: underline; padding-bottom: 2px; border-style: none}
+.textoline { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: normal; color: #245106; text-decoration: underline}
+.tabpesquisa2 { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #FFFFFF; text-decoration: none; background-color: #279500; border: 1px #245106 solid; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px}
+.tabbottom {  padding-top: 10px; padding-bottom: 10px; border-color: #C2CDE0 black; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #032B5E; text-decoration: none; border-style: solid; border-top-width: 1px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.textoblack {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #000000; text-decoration: none}
+.texto:hover {  color: #000000; text-decoration: underline}
+.linksverde:hover {  text-decoration: underline}
+.textoblack:hover {  color: #032B5E; text-decoration: underline}
+.listagem {  background-color: #FFFFFF; border: 1px #C2CDE0 solid; padding-top: 10px; padding-bottom: 10px}
+.data2 {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #98979C; text-decoration: none; padding-bottom: 5px}
+.linha {  background-color: #FFFFFF; border-color: black black #C2CDE0; padding-top: 2px; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.linkclaro {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #98979C; text-decoration: none}
+.linkclaro:hover {  color: #032B5E; text-decoration: underline}
+.highlight {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #DF4D19; text-decoration: none}
+.tracker {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #032B5E; text-decoration: none; background-color: #F2F5F9; padding-top: 1px; padding-bottom: 3px}
+.tracker2 {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #032B5E; text-decoration: underline}
+.tracker2:hover {  color: #000000}
+.red {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #C83500; text-decoration: none}
+.tabtop3 {  background-color: #C2CDE0; border-color: black black #504F54; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.tabtop4 { background-color: #FFFFFF; border-color: black #504F54 #504F54; border-style: solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px}
+.tabcanais {  background-color: #004283; border-color: black black #504F54; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.tabcanais2 { background-color: #004283; border-color: black black #FFFFFF; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.tabdata {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #000000; text-decoration: none; background-color: #FFFFFF; border-color: black black #504F54; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px}
+.textotit { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; line-height: normal; font-weight: normal; color: #032B5E; text-decoration: none }
+.textotit:hover { text-decoration: underline }

@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProductVersion>7.10.6030</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D0593953-736D-4AC6-A9A6-703C52A72031}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>SGPStools</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SGPStools</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.ASPEMAILLib">
+      <HintPath>..\..\projectos\WSSMS\WSSMS\bin\Interop.ASPEMAILLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PTelecom.Intranet">
+      <HintPath>..\dir\libs\PTelecom.Intranet.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADPTCUserDetail.aspx.cs">
+      <DependentUpon>ADPTCUserDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADuserDetail.aspx.cs">
+      <DependentUpon>ADuserDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ADuserDetailModify.aspx.cs">
+      <DependentUpon>ADuserDetailModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\ADSearch.cs" />
+    <Compile Include="Class\clsMcmsWfNotification.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\cSearchField.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\cTableData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\ExceptionField.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EPTADuserDetail.aspx.cs">
+      <DependentUpon>EPTADuserDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EPTADuserDetailModify.aspx.cs">
+      <DependentUpon>EPTADuserDetailModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EPTSMSTemplate.aspx.cs">
+      <DependentUpon>EPTSMSTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EPTSMSWarning.aspx.cs">
+      <DependentUpon>EPTSMSWarning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NFADSearchResultList.aspx.cs">
+      <DependentUpon>NFADSearchResultList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PTCADSearchResultList.aspx.cs">
+      <DependentUpon>PTCADSearchResultList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PTMADSearchResultList.aspx.cs">
+      <DependentUpon>PTMADSearchResultList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SGPSADSearchResultList.aspx.cs">
+      <DependentUpon>SGPSADSearchResultList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SMSTemplate.aspx.cs">
+      <DependentUpon>SMSTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SMSWarning.aspx.cs">
+      <DependentUpon>SMSWarning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ADList.ascx.cs">
+      <DependentUpon>ADList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userMng.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Web References\ptsgps-spsdev01\Reference.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Content Include="ADPTCUserDetail.aspx" />
+    <Content Include="ADuserDetail.aspx" />
+    <Content Include="ADuserDetailModify.aspx" />
+    <Content Include="css\css.css" />
+    <Content Include="css\insapo.css" />
+    <Content Include="css\insapoazul.css" />
+    <Content Include="css\insapoazulbebe.css" />
+    <Content Include="css\insapoazulverde.css" />
+    <Content Include="css\insaporoxo.css" />
+    <Content Include="css\insapoverde.css" />
+    <Content Include="css\insapovermelho.css" />
+    <Content Include="css\IntranetNF.css" />
+    <Content Include="css\styles_ept.css" />
+    <Content Include="EPTADuserDetail.aspx" />
+    <Content Include="EPTADuserDetailModify.aspx" />
+    <Content Include="EPTSMSTemplate.aspx" />
+    <Content Include="EPTSMSWarning.aspx" />
+    <Content Include="Error.htm" />
+    <Content Include="Global.asax">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="img\fd_pop_links.gif" />
+    <Content Include="img\icon_bug.gif" />
+    <Content Include="img\lg_bot_pt.gif" />
+    <Content Include="img\lg_ept_pop.gif" />
+    <Content Include="img\new\bg.gif" />
+    <Content Include="img\new\Intranet.myaltice.jfif" />
+    <Content Include="img\new\lg_ept.gif" />
+    <Content Include="img\sms.gif" />
+    <Content Include="img\sms_ept.gif" />
+    <Content Include="lib\Interop.ASPEMAILLib.dll" />
+    <Content Include="lib\PTelecom.Intranet.dll" />
+    <Content Include="NFADSearchResultList.aspx" />
+    <Content Include="PTCADSearchResultList.aspx" />
+    <Content Include="PTMADSearchResultList.aspx" />
+    <Content Include="SGPSADSearchResultList.aspx" />
+    <Content Include="SMSTemplate.aspx" />
+    <Content Include="SMSWarning.aspx" />
+    <Content Include="UserControls\ADList.ascx" />
+    <Content Include="Web References\ptsgps-spsdev01\Reference.map" />
+    <Content Include="Web References\ptsgps-spsdev01\SGPSwebService.disco" />
+    <Content Include="Web References\ptsgps-spsdev01\SGPSwebService.wsdl" />
+    <Content Include="Web.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Web.config.qa" />
+    <None Include="Web.config.dev" />
+    <Content Include="_UpgradeReport_Files\UpgradeReport.css" />
+    <Content Include="_UpgradeReport_Files\UpgradeReport.xslt" />
+    <Content Include="_UpgradeReport_Files\UpgradeReport_Error.png" />
+    <Content Include="_UpgradeReport_Files\UpgradeReport_Information.png" />
+    <Content Include="_UpgradeReport_Files\UpgradeReport_Minus.gif" />
+    <Content Include="_UpgradeReport_Files\UpgradeReport_Plus.gif" />
+    <Content Include="_UpgradeReport_Files\UpgradeReport_Success.png" />
+    <Content Include="_UpgradeReport_Files\UpgradeReport_Warning.png" />
+    <EmbeddedResource Include="ADPTCUserDetail.aspx.resx">
+      <DependentUpon>ADPTCUserDetail.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADuserDetail.aspx.resx">
+      <DependentUpon>ADuserDetail.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADuserDetailModify.aspx.resx">
+      <DependentUpon>ADuserDetailModify.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EPTADuserDetail.aspx.resx">
+      <DependentUpon>EPTADuserDetail.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EPTADuserDetailModify.aspx.resx">
+      <DependentUpon>EPTADuserDetailModify.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EPTSMSTemplate.aspx.resx">
+      <DependentUpon>EPTSMSTemplate.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EPTSMSWarning.aspx.resx">
+      <DependentUpon>EPTSMSWarning.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NFADSearchResultList.aspx.resx">
+      <DependentUpon>NFADSearchResultList.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTCADSearchResultList.aspx.resx">
+      <DependentUpon>PTCADSearchResultList.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTMADSearchResultList.aspx.resx">
+      <DependentUpon>PTMADSearchResultList.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGPSADSearchResultList.aspx.resx">
+      <DependentUpon>SGPSADSearchResultList.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMSTemplate.aspx.resx">
+      <DependentUpon>SMSTemplate.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMSWarning.aspx.resx">
+      <DependentUpon>SMSWarning.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ADList.ascx.resx">
+      <DependentUpon>ADList.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="SGPStools.vsdisco" />
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="lib\Interop.ASPEMAILLib.dll" />
+    <Analyzer Include="lib\PTelecom.Intranet.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="External Bin\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60615</DevelopmentServerPort>
+          <DevelopmentServerVPath>/SGPSTools/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
